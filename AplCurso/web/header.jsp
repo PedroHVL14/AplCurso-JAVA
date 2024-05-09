@@ -1,25 +1,29 @@
 <%@page contentType="text/html" pageEncoding="iso-8859-1"%>
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
         <title>JSP Page</title>
-        <!-- JQuery -->
-        <script src="${pageContext.request.contextPath}/js/jquary-3.3.1.min.js"></script>
-        <script src="${pageContext.request.contextPath}/js/jquery.mask.min.js"></script>
-        <script src="${pagecontext.request.contextPath}/js/jquery.maskMoney.min.js"></script>
+    
+        <!-- JQuery --> 
+        <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <script src="js/jquery.mask.min.js" type="text/javascript"></script>
+        <script src="js/jquery.maskMoney.min.js" type="text/javascript"></script>
+        
         <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com//bootstrap/4.3.1/css/bootstrap.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/l.l4.7/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js/bootstrap.min.js"></script>
-
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
         <!-- Datatable -->
-        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css" />
-        <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.0.3/css/dataTables.dataTables.min.css"/>
+        <script src="https://cdn.datatables.net/2.0.3/js/dataTables.min.js" type="text/javascript"></script>
+        
         <!-- Mensagem alerta -->
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.3.1/dist/sweetalert2.all.min.js" type="text/javascript">
         </script>
     </head>
-
-<body>
+    <body>
+        
+    </body>
+</html>
